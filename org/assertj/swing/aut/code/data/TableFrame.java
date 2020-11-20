@@ -1,11 +1,9 @@
 package org.assertj.swing.aut.code.data;
 
-import static javax.swing.SwingUtilities.invokeAndWait;
+//import static javax.swing.SwingUtilities.invokeAndWait;
+//import java.lang.reflect.InvocationTargetException;
+//import javax.swing.JFrame;
 import static org.assertj.swing.aut.util.swing.TableUtil.newTable;
-
-import java.lang.reflect.InvocationTargetException;
-
-import javax.swing.JFrame;
 import javax.swing.JTable;
 
 import net.miginfocom.layout.AC;

@@ -1,12 +1,10 @@
 package org.assertj.swing.aut.code.fixture;
 
+//import static javax.swing.SwingUtilities.invokeAndWait;
+//import java.lang.reflect.InvocationTargetException;
+//import javax.swing.JFrame;
 import static org.assertj.swing.aut.util.swing.ComboBoxUtil.newBox;
-import static javax.swing.SwingUtilities.invokeAndWait;
-import java.lang.reflect.InvocationTargetException;
-
 import javax.swing.JComboBox;
-import javax.swing.JFrame;
-
 import org.assertj.swing.aut.components.SampleFrame;
 
 public class ComboboxFrame extends SampleFrame {
