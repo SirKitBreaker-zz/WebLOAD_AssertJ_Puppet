@@ -1,6 +1,11 @@
 package org.assertj.swing.aut.code.data;
 
+import static javax.swing.SwingUtilities.invokeAndWait;
 import static org.assertj.swing.aut.util.swing.TableUtil.newTable;
+
+import java.lang.reflect.InvocationTargetException;
+
+import javax.swing.JFrame;
 import javax.swing.JTable;
 
 import net.miginfocom.layout.AC;
@@ -29,4 +34,13 @@ public class TableFrame extends SampleFrame {
 		return new Object[][] { { "Kathy", "Smith", "Snowboarding" }, { "John", "Doe", "Rowing" },
 				{ "Sue", "Black", "Knitting" }, { "Jane", "White", "Speed reading" }, { "Joe", "Brown", "Pool" } };
 	}
+	
+//	public static void main(String[] args) throws InvocationTargetException, InterruptedException {
+//		invokeAndWait(new Runnable() {
+//			public void run() {
+//				JFrame frame = new TableFrame();
+//				frame.setVisible(true);
+//			}
+//		});
+//	}
 }

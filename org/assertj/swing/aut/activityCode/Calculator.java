@@ -1,4 +1,4 @@
-package org.assertj.swing.aut.calculator;
+package org.assertj.swing.aut.activityCode;
 
 import javax.swing.*;
 import javax.swing.border.*;
@@ -114,8 +114,8 @@ public class Calculator extends JFrame implements ActionListener {
 	}
 
 	// main method
-	public static void main(String[] args) {
-		Calculator calculator = new Calculator();
-		calculator.setVisible(true);
-	}
+//	public static void main(String[] args) {
+//		Calculator calculator = new Calculator();
+//		calculator.setVisible(true);
+//	}
 }
